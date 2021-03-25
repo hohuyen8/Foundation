@@ -558,8 +558,8 @@ button {
   display: none;
 }
 @media (max-width: 576px) {
-  .bgWhite {
-    height: 2042px;
+  .bgwhite {
+    height: 1139px;
     padding-bottom: 50px;
   }
   .features {
@@ -1149,6 +1149,10 @@ button {
 .review {
   padding-top: 76px;
   display: flex;
+  background: url(img/Review.png);
+  background-repeat: no-repeat;
+  background-position:bottom;
+  background-position-x: right;
 }
 .review .text {
   width: 430px;
@@ -1196,10 +1200,7 @@ button {
 .review .text svg {
   margin-top: 38px;
 }
-.review .img {
-  overflow: hidden;
-  padding-top: 150px;
-}
+
 .rectangle {
   width: 100%;
   height: 1px;
@@ -1629,12 +1630,15 @@ button {
   width: 100%;
   margin-top: 47px;
 }
-.footer .textAndIcon {
+.footer .respon{
+  display: none;
+}
+ .textAndIcon {
   margin-top: 13px;
   display: flex;
   justify-content: space-between;
 }
-.footer .textAndIcon .text {
+ .textAndIcon .text {
   width: 180px;
   padding-top: 0px;
   display: flex;
@@ -1646,7 +1650,7 @@ button {
 }
 @media (max-width: 576px) {
   .footer {
-    height: 868px;
+    height: 756px;
     width: 100%;
   }
   .footer .text {
@@ -1707,23 +1711,24 @@ button {
   .footer .text .productNcompany .bold {
     padding-bottom: 18px;
   }
-  .footer .textAndIcon {
+   .textAndIcon {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
     width: 100%;
+    padding-top: 15px;
   }
-  .footer .textAndIcon .text {
+   .textAndIcon .text {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     width: 290px;
     margin: 0 auto;
   }
-  .footer .textAndIcon .text p {
+   .textAndIcon .text p {
     margin-right: 25px;
   }
-  .footer .textAndIcon .icon {
+   .textAndIcon .icon {
     padding-top: 31px;
     width: 290px;
     margin: 0 auto;
@@ -1732,7 +1737,7 @@ button {
     justify-content: flex-start;
     width: 290px;
   }
-  .footer .textAndIcon .icon img {
+   .textAndIcon .icon img {
     margin-right: 20px;
   }
 }
