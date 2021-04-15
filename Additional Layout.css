@@ -7,7 +7,7 @@ button {
 .bgHeader {
   background: #f9d9eb;
   width: 100%;
-  background-image: url(img/img-additional_layout/bgHeader.jpg);
+  background-image: url(img/img_additional_layout/bgHeader.jpg);
   background-size: 796px;
   background-repeat: no-repeat;
   background-position: bottom;
@@ -53,7 +53,7 @@ button {
   font-family: "Work Sans", sans-serif;
   color: #2b292d;
 }
-.bgHeader .header .nav-bar svg{
+.bgHeader .header .nav-bar svg {
   margin-top: 11px;
 }
 .bgHeader .header .nav-bar .bold {
@@ -241,7 +241,7 @@ button {
 }
 .bgReview {
   background: #d3e9ef;
-  background-image: url(img/img-review/bg.png);
+  background-image: url(img/img_review/bg.png);
   background-repeat: no-repeat;
   background-position: bottom;
   background-position-x: right;
@@ -370,7 +370,7 @@ button {
   font-weight: bold;
 }
 @media (max-width: 576px) {
-  .features{
+  .features {
     padding: 0;
   }
 }
@@ -423,11 +423,11 @@ button {
   color: #3040c4;
 }
 @media (max-width: 576px) {
-  .two-features .items{
+  .two-features .items {
     margin: 0 auto;
     text-align: center;
   }
-  .two-features .items .item img{
+  .two-features .items .item img {
     padding: 45px 0px 0px 0px;
   }
 }
@@ -498,7 +498,7 @@ button {
 }
 @media (max-width: 576px) {
   .bgCTA .CTA .img {
-    padding-bottom: 0 ;
+    padding-bottom: 0;
   }
   .bgCTA .CTA .text .input {
     margin: 0 auto;
